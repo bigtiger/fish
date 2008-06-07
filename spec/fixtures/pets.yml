@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: rover
+  type: dog
+  user_id: 1
+  
+two:
+  name: fifi
+  type: cat
+  user_id: 2
