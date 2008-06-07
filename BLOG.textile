@@ -1,0 +1,6 @@
+h1. [ProjectName Blog]
+
+h2. 2008-06-05
+
+* Checked in half the app and broke the build 'cause we're going on vacation, Good Luck!
+* We researched Ferret but realized it didn't do X so we chose not to use it.

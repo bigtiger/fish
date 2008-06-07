@@ -1,0 +1,28 @@
+* May 3rd, 2007
+* EXPERIMENTAL, significant improvements to the way resource helper
+* delegations are handled.  Rather handy for the situations where 
+* you are using a :name_prefix, :singular or :controller when 
+* generating your map.resources routes.  Oh, and it handles singletons
+* now too.
+
+* May 2nd, 2007
+* EXPERIMENTAL: controllers use a new method, default_template_path to
+* figure out the default_template_name, rather than using the current
+* strategoy of calling controller_path.
+
+* April 10th, 2007
+* Changing how you delegate url helpers
+
+* April 9th, 2007
+* Added in the 2 remaining features for polymorphic resources, pretty much
+* exactly as I've used them before - as in, they haven't been prettied up 
+* or refactored in any way.  As such, they are subject to change and should
+* not be relied upon.  
+* This commit is mostly to solicit comments and get input on what the 
+* DSL should look like for describing url helper delegation.
+
+* March 20th, 2007
+* Tests refactored courtesy of Steve Baker (on pobox.com he is srbaker)
+
+* March 19th, 2007
+* Added tests for inferencing in url helpers
